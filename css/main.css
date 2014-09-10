@@ -3,10 +3,14 @@
 Colours
 ---
 
-- orange: #e4701e
+- orange dark: #e4701e
+- orange light: #CA631B
 - black: #000000
-- grey1: #cccccc
-
+- white: #ffffff
+- grey med: #cccccc
+- grey dark: #4C4C4C
+- grey light: #D9D9D9
+- main purple: #391366
 */
 
 .site-navigation {
@@ -16,12 +20,58 @@ Colours
 }
 .site-nav-link {
   color: #e4701e;
+  text-decoration: none;
 }
 
 .hero {
   background-color: #cccccc;
+  padding: 2em;
 }
 
 .hero-title {
-  
+  font-family: Helvetica;
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.hero-link {
+  background-color: #ffffff;
+  color: #391366;
+}
+
+.hero-description {
+  margin-bottom: 2em;
+  color: #ffffff;
+}
+
+
+
+.news-title {
+  color: #391366;
+  margin-top: 0; 
+}
+
+.news-summary {
+  color: #4C4C4C;
+  margin-bottom: 2em;
+}
+
+.read-more-link {
+  background-color: #e4701e;
+  color: #ffffff;
+}
+
+.button {
+  padding: 0.8em; 
+    text-decoration: none;  
+  border-radius: 5px;
+}
+
+.news {
+  padding: 2em;  
+}
+
+.news-item {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
