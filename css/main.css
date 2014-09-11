@@ -12,6 +12,7 @@ Colours
 - grey light: #D9D9D9
 - main purple: #391366
 */
+
 img {
  max-width: 100%; 
 }
@@ -81,6 +82,16 @@ img {
 .news-item {
   padding-bottom: 1em;
   margin-bottom: 1em;
+  width: 30%;
+  float: left;
+  margin-right: 2em;
+}
+
+@media screen and (max-width: 640px) {
+  .news-item {
+    width: 100%;
+    float: none;
+  }
 }
 
 .news-item-image {
@@ -91,6 +102,7 @@ img {
   background-color: #4C4C4C;
   color: #ffffff;
   padding: 2em;
+  clear: both;
 }
 
 .footer-link {
