@@ -18,15 +18,19 @@ img {
 
 .site-navigation {
   list-style: none;
-  padding-left: 0;
+  padding: 2em;
   background-color: #000000;
 }
 .site-nav-link {
   color: #e4701e;
   text-decoration: none;
+  display: block;
+  margin-bottom: 0.5em;
 }
 
 .hero {
+  background-image: url(../img/hero-image.png);
+  background-repeat: no-repeat;
   background-color: #cccccc;
   padding: 2em;
 }
@@ -92,4 +96,15 @@ img {
 .footer-link {
   color: #ffffff;
   text-decoration: none;
+}
+
+
+
+.site-logo {
+  margin: 2em 0 0 2em ;
+}
+
+.site-navigation-item {
+  display: inline-block;
+  width: 20%;
 }
